@@ -1,4 +1,4 @@
 FROM rocker/shiny
 MAINTAINER IF Fulcrum "fulcrum@ifsight.net"
 
-RUN apt-get install libxml2-dev
+RUN apt-get install -y libxml2-dev
